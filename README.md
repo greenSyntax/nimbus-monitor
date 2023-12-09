@@ -22,14 +22,14 @@ pod 'NimbusMonitor', :git => 'git@github.com:greenSyntax/nimbus-monitor.git', :t
 
 You just need to write a single line of code - 
 
-```
+```swift
     NimbussService().monitor()
 ```
 
 ## Customization
 
 You can write something similar,
-```
+```swift
 import Foundation
 import NimbusMonitor
 import Alamofire
