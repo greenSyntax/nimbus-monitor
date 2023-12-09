@@ -1,0 +1,6 @@
+framework module Pods_nimbus_sdk_Example {
+  umbrella header "Pods-nimbus-sdk_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

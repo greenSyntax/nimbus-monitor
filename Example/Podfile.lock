@@ -1,0 +1,16 @@
+PODS:
+  - NimbusMonitor (1.0.4)
+
+DEPENDENCIES:
+  - NimbusMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  NimbusMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NimbusMonitor: 06a2aa0cd9828cc5caeaf80a107ffb5eabf1489f
+
+PODFILE CHECKSUM: 17780a0a96cc5e5efa6c87b36c45fe4cf7280a6d
+
+COCOAPODS: 1.11.3

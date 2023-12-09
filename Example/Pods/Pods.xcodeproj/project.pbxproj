@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063C764B5EF2E7532D4ECBEF3AD7E5EE /* NimbusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859FB3456D2C4DC60F0663BAEAE6BC28 /* NimbusService.swift */; };
+		0E975947296EDA784E3D6762A08443BE /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F9E4A4F4D1F3B65E69725B6D32FF6 /* CategoryView.swift */; };
+		1457951530C63ADA3F54E0688C7690A0 /* NBAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4B3A3F5D516F3CF57054B0DF390584 /* NBAssets.xcassets */; };
+		24C782035D82F02986E3FA722F580208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37F2A781C6A1A7F387BF07E3D27A140D /* DebugLogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748084F495D9F10BDE26399E0564D2B5 /* DebugLogBuilder.swift */; };
+		384C38C7301DA95D7DF144D141BC280A /* NBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10723DEDE32EA41598FBC9320C8C1ACE /* NBView.swift */; };
+		446D245F0C369CE0202A99C79B58F30D /* NimbusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFAC64AAE3D9B40A2D1DE43A369E89 /* NimbusViewController.swift */; };
+		4ACA52DE6B824F063B058ECAD3C3AEAA /* NimbusMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6FE98FD78414AB10D9ADE6E1B24D6F /* NimbusMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C60664BED7BA374F7D31BD29E28D6CF /* NimbusMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DD4F369859C85531A6D0055B937B3 /* NimbusMonitor-dummy.m */; };
+		5E253AC22131051E0D52DCD2DCAF98FC /* NBDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B40CD2297DD39A501B5FF517E1F652 /* NBDate.swift */; };
+		6D3E34942AA9D21000B31468 /* NetworkDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34932AA9D21000B31468 /* NetworkDataModel.swift */; };
+		6D3E34962AA9D23700B31468 /* ManagedObjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34952AA9D23700B31468 /* ManagedObjectable.swift */; };
+		6D3E34982AA9D6AA00B31468 /* NetworkCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34972AA9D6AA00B31468 /* NetworkCellData.swift */; };
+		6D3E349E2AA9DBF900B31468 /* NetworkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E349D2AA9DBF900B31468 /* NetworkLog.swift */; };
+		6D3E34A02AA9DC1100B31468 /* DebugLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E349F2AA9DC1100B31468 /* DebugLog.swift */; };
+		6D3E34A22AA9DC1F00B31468 /* InstrumentationLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34A12AA9DC1F00B31468 /* InstrumentationLog.swift */; };
+		6D3E34A42AA9E01700B31468 /* InstrumentationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34A32AA9E01700B31468 /* InstrumentationDataModel.swift */; };
+		6D3E34A62AA9E14500B31468 /* NBData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34A52AA9E14500B31468 /* NBData.swift */; };
+		6D3E34A82AA9ECAC00B31468 /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34A72AA9ECAC00B31468 /* NetworkViewModel.swift */; };
+		6D3E34AA2AA9ED1000B31468 /* NetworkCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34A92AA9ED1000B31468 /* NetworkCellView.swift */; };
+		6D3E34AC2AAA0FAE00B31468 /* NetworkLogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34AB2AAA0FAE00B31468 /* NetworkLogBuilder.swift */; };
+		6D3E34AE2AAA14D800B31468 /* InstrumentationLogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34AD2AAA14D800B31468 /* InstrumentationLogBuilder.swift */; };
+		6D3E34B02AAA14FE00B31468 /* InstrumentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34AF2AAA14FE00B31468 /* InstrumentationViewModel.swift */; };
+		6D3E34B22AAA169100B31468 /* InstrumentationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34B12AAA169100B31468 /* InstrumentationViewCell.swift */; };
+		6D3E34B42AAA16C000B31468 /* DebugCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34B32AAA16C000B31468 /* DebugCellData.swift */; };
+		6D3E34B62AAA1ACF00B31468 /* InstrumentationCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E34B52AAA1ACF00B31468 /* InstrumentationCellData.swift */; };
+		6D517001FC61E1CC48F6D29D76725BA5 /* SDKConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6312F3B50313A669DD4D58C10C88838 /* SDKConstant.swift */; };
+		7B985CA9307A241884BD8F9CF73DA57A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA09CC2F08178BAEB86820E713D791 /* CoreDataManager.swift */; };
+		7CF87C3A8B2559F51EC18318885212C6 /* SDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378F7B713746C1C12C11D8F09D24E63 /* SDKError.swift */; };
+		832A9069E982B2BC65102D8173F70066 /* NBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715ABDFD2435381D3CCFF576CD26A937 /* NBViewController.swift */; };
+		8CFB6002B75E8173B7A6D1E3CE658D65 /* DebugLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED52BFBF117491824F9009B6339D06F /* DebugLogsViewController.swift */; };
+		9F2753C028E16DB0FF637CFD0AECF852 /* NetworkLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C67FF4C2EE2498BC067A19488FA53 /* NetworkLogViewController.swift */; };
+		A15CA36745F26E40022C44B3D955FD2D /* NBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAF1FCD03C092832D1C98DB20BE715 /* NBColor.swift */; };
+		A1879A29C827752A90E4AAC4739615ED /* DetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E827ED98F3F868743A845DBDC3E16A /* DetailTextCell.swift */; };
+		A1EDCE7972B031DC9E18F50DFAE3D544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8E469F1400F9FCFEFCE44297A6F8E28 /* InstrumntationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD428A240AFEF38989494EF8E02527B1 /* InstrumntationViewController.swift */; };
+		C028B51D5843B4A1F3A24629CD2C33BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C77086017F72176C41C5C12D3AD7B8 /* DetailViewController.swift */; };
+		C69A6B5B6B02DA5EC857BE68F564B546 /* DebugLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD79681B11727F9AD66D56EF7B8F5C2 /* DebugLogViewModel.swift */; };
+		CACE3D1272A46FBB6A6CF20779097399 /* Pods-nimbus-sdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B59D2CE6F27723123DC5DD3290A6BD70 /* Pods-nimbus-sdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65A5F698BF81CD14C2ECB25E4971409 /* LogDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2024662F33BD23850B22C8255188F22F /* LogDataModel.swift */; };
+		E8430008D39F3945937EBCAD052F5042 /* nimbus_database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2063779E0C023E5DFE63E6D525FBF68D /* nimbus_database.xcdatamodeld */; };
+		EF04E5710D15B3CC781849D94F3C752E /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335ADB52AD7C968150C479B06F22F08 /* LogCell.swift */; };
+		F73CE0756CF0D6131AC4FCD59EB5B817 /* NBApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE94994890C9DFECB2A2BC1942D9387 /* NBApplication.swift */; };
+		FF3A70BF26150D8CCE95E85D81114A6C /* Pods-nimbus-sdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C3D7B281758C47D153D7245FAF920 /* Pods-nimbus-sdk_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6259D1BC34E8BDC411E24847E133BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDF28670460179B57B228015A56E2AA;
+			remoteInfo = NimbusMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AFAC64AAE3D9B40A2D1DE43A369E89 /* NimbusViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NimbusViewController.swift; sourceTree = "<group>"; };
+		042F9E4A4F4D1F3B65E69725B6D32FF6 /* CategoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		0A8A1E9E7AA250CF1FB40BBCBD5E31F9 /* database.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = database.xcdatamodel; sourceTree = "<group>"; };
+		10723DEDE32EA41598FBC9320C8C1ACE /* NBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NBView.swift; sourceTree = "<group>"; };
+		12BA09CC2F08178BAEB86820E713D791 /* CoreDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1BD1440862948130970DA47DAB0322CA /* Pods-nimbus-sdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nimbus-sdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6FE98FD78414AB10D9ADE6E1B24D6F /* NimbusMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NimbusMonitor-umbrella.h"; sourceTree = "<group>"; };
+		2024662F33BD23850B22C8255188F22F /* LogDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogDataModel.swift; sourceTree = "<group>"; };
+		2335ADB52AD7C968150C479B06F22F08 /* LogCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		2568E93298D9F6633261D98FAF55FF1A /* Pods-nimbus-sdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-nimbus-sdk_Example"; path = Pods_nimbus_sdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D68DACED6893F2D51E893B4B977D089 /* NimbusMonitor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NimbusMonitor; path = NimbusMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D95B615DADD5C61E466F004D4784A9C /* NimbusMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NimbusMonitor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2FE94994890C9DFECB2A2BC1942D9387 /* NBApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NBApplication.swift; sourceTree = "<group>"; };
+		3DD79681B11727F9AD66D56EF7B8F5C2 /* DebugLogViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugLogViewModel.swift; sourceTree = "<group>"; };
+		3E9C67FF4C2EE2498BC067A19488FA53 /* NetworkLogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkLogViewController.swift; sourceTree = "<group>"; };
+		45795F6A138C7B42DA9DFBE4A0EE3740 /* NimbusMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NimbusMonitor.modulemap; sourceTree = "<group>"; };
+		46A1AD9C9D595A0CCA57E94AB750F386 /* Pods-nimbus-sdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nimbus-sdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B9DD4F369859C85531A6D0055B937B3 /* NimbusMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NimbusMonitor-dummy.m"; sourceTree = "<group>"; };
+		4E4C4E18C3A7E8539084F9B129A73F9B /* Pods-nimbus-sdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-nimbus-sdk_Example.modulemap"; sourceTree = "<group>"; };
+		64845E3D0FAABD677768944139FE319F /* NimbusMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NimbusMonitor.release.xcconfig; sourceTree = "<group>"; };
+		6CD4DE410D3129B070B308A04AECD440 /* NimbusMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NimbusMonitor-prefix.pch"; sourceTree = "<group>"; };
+		6D3E34932AA9D21000B31468 /* NetworkDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataModel.swift; sourceTree = "<group>"; };
+		6D3E34952AA9D23700B31468 /* ManagedObjectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectable.swift; sourceTree = "<group>"; };
+		6D3E34972AA9D6AA00B31468 /* NetworkCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCellData.swift; sourceTree = "<group>"; };
+		6D3E349D2AA9DBF900B31468 /* NetworkLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLog.swift; sourceTree = "<group>"; };
+		6D3E349F2AA9DC1100B31468 /* DebugLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLog.swift; sourceTree = "<group>"; };
+		6D3E34A12AA9DC1F00B31468 /* InstrumentationLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentationLog.swift; sourceTree = "<group>"; };
+		6D3E34A32AA9E01700B31468 /* InstrumentationDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentationDataModel.swift; sourceTree = "<group>"; };
+		6D3E34A52AA9E14500B31468 /* NBData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBData.swift; sourceTree = "<group>"; };
+		6D3E34A72AA9ECAC00B31468 /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewModel.swift; sourceTree = "<group>"; };
+		6D3E34A92AA9ED1000B31468 /* NetworkCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCellView.swift; sourceTree = "<group>"; };
+		6D3E34AB2AAA0FAE00B31468 /* NetworkLogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogBuilder.swift; sourceTree = "<group>"; };
+		6D3E34AD2AAA14D800B31468 /* InstrumentationLogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentationLogBuilder.swift; sourceTree = "<group>"; };
+		6D3E34AF2AAA14FE00B31468 /* InstrumentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentationViewModel.swift; sourceTree = "<group>"; };
+		6D3E34B12AAA169100B31468 /* InstrumentationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentationViewCell.swift; sourceTree = "<group>"; };
+		6D3E34B32AAA16C000B31468 /* DebugCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugCellData.swift; sourceTree = "<group>"; };
+		6D3E34B52AAA1ACF00B31468 /* InstrumentationCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentationCellData.swift; sourceTree = "<group>"; };
+		715ABDFD2435381D3CCFF576CD26A937 /* NBViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NBViewController.swift; sourceTree = "<group>"; };
+		72B5A63F392C3BA62F6CEE6170D80323 /* NimbusMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NimbusMonitor.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7378F7B713746C1C12C11D8F09D24E63 /* SDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDKError.swift; sourceTree = "<group>"; };
+		748084F495D9F10BDE26399E0564D2B5 /* DebugLogBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugLogBuilder.swift; sourceTree = "<group>"; };
+		755C3D7B281758C47D153D7245FAF920 /* Pods-nimbus-sdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nimbus-sdk_Example-dummy.m"; sourceTree = "<group>"; };
+		859FB3456D2C4DC60F0663BAEAE6BC28 /* NimbusService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbusService.swift; path = "nimbus-sdk/Classes/NimbusService.swift"; sourceTree = "<group>"; };
+		884C79FAE9BE56BB75C94412087F8010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C77086017F72176C41C5C12D3AD7B8 /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD428A240AFEF38989494EF8E02527B1 /* InstrumntationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstrumntationViewController.swift; sourceTree = "<group>"; };
+		B59D2CE6F27723123DC5DD3290A6BD70 /* Pods-nimbus-sdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nimbus-sdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		B6312F3B50313A669DD4D58C10C88838 /* SDKConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDKConstant.swift; sourceTree = "<group>"; };
+		BED52BFBF117491824F9009B6339D06F /* DebugLogsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugLogsViewController.swift; sourceTree = "<group>"; };
+		C089B36C893848330724FF0C5E68AAF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C5D03087EA685F2A8DF830EB9323EDC9 /* Pods-nimbus-sdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nimbus-sdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE4B3A3F5D516F3CF57054B0DF390584 /* NBAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = NBAssets.xcassets; path = "nimbus-sdk/Classes/Utils/NBAssets.xcassets"; sourceTree = "<group>"; };
+		D1B40CD2297DD39A501B5FF517E1F652 /* NBDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NBDate.swift; sourceTree = "<group>"; };
+		D4AAF1FCD03C092832D1C98DB20BE715 /* NBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NBColor.swift; sourceTree = "<group>"; };
+		E8E827ED98F3F868743A845DBDC3E16A /* DetailTextCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailTextCell.swift; sourceTree = "<group>"; };
+		EA6C8EA33F59521583F57BCE4FB49D40 /* Pods-nimbus-sdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nimbus-sdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ECF104880001D8DCDA3191CABBEEBCA0 /* Pods-nimbus-sdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nimbus-sdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0F6E4864BFD24D23D29E278FB0CFA47 /* Pods-nimbus-sdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nimbus-sdk_Example-Info.plist"; sourceTree = "<group>"; };
+		FC2EA441320412E160E42440E57F01F5 /* NimbusMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NimbusMonitor-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74FA3680137325FD7425970AAC8D889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EDCE7972B031DC9E18F50DFAE3D544 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D4AF10FBC453B62BD36DA86EEF85FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C782035D82F02986E3FA722F580208 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6E21501527A32171B9BB67373C023A /* Instrumentation */ = {
+			isa = PBXGroup;
+			children = (
+				AD428A240AFEF38989494EF8E02527B1 /* InstrumntationViewController.swift */,
+				6D3E34AD2AAA14D800B31468 /* InstrumentationLogBuilder.swift */,
+				6D3E34AF2AAA14FE00B31468 /* InstrumentationViewModel.swift */,
+				6D3E34B12AAA169100B31468 /* InstrumentationViewCell.swift */,
+				6D3E34B52AAA1ACF00B31468 /* InstrumentationCellData.swift */,
+			);
+			path = Instrumentation;
+			sourceTree = "<group>";
+		};
+		16D74285541B8BAE12BDC3C4272E932A /* DebugLog */ = {
+			isa = PBXGroup;
+			children = (
+				748084F495D9F10BDE26399E0564D2B5 /* DebugLogBuilder.swift */,
+				BED52BFBF117491824F9009B6339D06F /* DebugLogsViewController.swift */,
+				2335ADB52AD7C968150C479B06F22F08 /* LogCell.swift */,
+				3DD79681B11727F9AD66D56EF7B8F5C2 /* DebugLogViewModel.swift */,
+				6D3E34B32AAA16C000B31468 /* DebugCellData.swift */,
+			);
+			path = DebugLog;
+			sourceTree = "<group>";
+		};
+		1D251086591611767393F2CFB749EF73 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E8E827ED98F3F868743A845DBDC3E16A /* DetailTextCell.swift */,
+				A7C77086017F72176C41C5C12D3AD7B8 /* DetailViewController.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		4B689865D0BA4620BD9742595AFBE6A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC5557A694F9575D38B83C09237076C8 /* Pods-nimbus-sdk_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FDD5B4CCD06AA30F2BABD5B3C9C7BA8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				02AFAC64AAE3D9B40A2D1DE43A369E89 /* NimbusViewController.swift */,
+				BD5118E05348D16B119E91D9CCFE566E /* Component */,
+				16D74285541B8BAE12BDC3C4272E932A /* DebugLog */,
+				1D251086591611767393F2CFB749EF73 /* DetailView */,
+				0A6E21501527A32171B9BB67373C023A /* Instrumentation */,
+				88C1ED006BEBC878441DF83686937773 /* NetworkLog */,
+			);
+			name = UI;
+			path = "nimbus-sdk/Classes/UI";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D3E349C2AA9DBF900B31468 /* ContractType */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E349D2AA9DBF900B31468 /* NetworkLog.swift */,
+				6D3E349F2AA9DC1100B31468 /* DebugLog.swift */,
+				6D3E34A12AA9DC1F00B31468 /* InstrumentationLog.swift */,
+			);
+			name = ContractType;
+			path = "nimbus-sdk/Classes/ContractType";
+			sourceTree = "<group>";
+		};
+		723D1B0CC1E164D74FC51A532A493B49 /* DataModelType */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E34952AA9D23700B31468 /* ManagedObjectable.swift */,
+				2024662F33BD23850B22C8255188F22F /* LogDataModel.swift */,
+				6D3E34932AA9D21000B31468 /* NetworkDataModel.swift */,
+				6D3E34A32AA9E01700B31468 /* InstrumentationDataModel.swift */,
+			);
+			path = DataModelType;
+			sourceTree = "<group>";
+		};
+		77AFEFFB6DDECAFF872EE8C129092CBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45795F6A138C7B42DA9DFBE4A0EE3740 /* NimbusMonitor.modulemap */,
+				4B9DD4F369859C85531A6D0055B937B3 /* NimbusMonitor-dummy.m */,
+				FC2EA441320412E160E42440E57F01F5 /* NimbusMonitor-Info.plist */,
+				6CD4DE410D3129B070B308A04AECD440 /* NimbusMonitor-prefix.pch */,
+				1D6FE98FD78414AB10D9ADE6E1B24D6F /* NimbusMonitor-umbrella.h */,
+				72B5A63F392C3BA62F6CEE6170D80323 /* NimbusMonitor.debug.xcconfig */,
+				64845E3D0FAABD677768944139FE319F /* NimbusMonitor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NimbusMonitor";
+			sourceTree = "<group>";
+		};
+		88C1ED006BEBC878441DF83686937773 /* NetworkLog */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C67FF4C2EE2498BC067A19488FA53 /* NetworkLogViewController.swift */,
+				6D3E34972AA9D6AA00B31468 /* NetworkCellData.swift */,
+				6D3E34A72AA9ECAC00B31468 /* NetworkViewModel.swift */,
+				6D3E34A92AA9ED1000B31468 /* NetworkCellView.swift */,
+				6D3E34AB2AAA0FAE00B31468 /* NetworkLogBuilder.swift */,
+			);
+			path = NetworkLog;
+			sourceTree = "<group>";
+		};
+		A9AF187208DFB04892F730841C7DBA0F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2FE94994890C9DFECB2A2BC1942D9387 /* NBApplication.swift */,
+				D4AAF1FCD03C092832D1C98DB20BE715 /* NBColor.swift */,
+				D1B40CD2297DD39A501B5FF517E1F652 /* NBDate.swift */,
+				10723DEDE32EA41598FBC9320C8C1ACE /* NBView.swift */,
+				715ABDFD2435381D3CCFF576CD26A937 /* NBViewController.swift */,
+				6D3E34A52AA9E14500B31468 /* NBData.swift */,
+			);
+			name = Utils;
+			path = "nimbus-sdk/Classes/Utils";
+			sourceTree = "<group>";
+		};
+		BD5118E05348D16B119E91D9CCFE566E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				042F9E4A4F4D1F3B65E69725B6D32FF6 /* CategoryView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C9E9117AE2A8ED259DF934FF10CAD955 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9B229971CFEEBB3DC00BC953E78A5C4 /* NimbusMonitor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C9E9117AE2A8ED259DF934FF10CAD955 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DDE2245FA868DF3E005F2B7644D632DE /* Products */,
+				4B689865D0BA4620BD9742595AFBE6A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D82DEF331C294A19C35B5727BF7FAB97 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C089B36C893848330724FF0C5E68AAF9 /* LICENSE */,
+				2D95B615DADD5C61E466F004D4784A9C /* NimbusMonitor.podspec */,
+				884C79FAE9BE56BB75C94412087F8010 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DC5557A694F9575D38B83C09237076C8 /* Pods-nimbus-sdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E4C4E18C3A7E8539084F9B129A73F9B /* Pods-nimbus-sdk_Example.modulemap */,
+				ECF104880001D8DCDA3191CABBEEBCA0 /* Pods-nimbus-sdk_Example-acknowledgements.markdown */,
+				46A1AD9C9D595A0CCA57E94AB750F386 /* Pods-nimbus-sdk_Example-acknowledgements.plist */,
+				755C3D7B281758C47D153D7245FAF920 /* Pods-nimbus-sdk_Example-dummy.m */,
+				C5D03087EA685F2A8DF830EB9323EDC9 /* Pods-nimbus-sdk_Example-frameworks.sh */,
+				F0F6E4864BFD24D23D29E278FB0CFA47 /* Pods-nimbus-sdk_Example-Info.plist */,
+				B59D2CE6F27723123DC5DD3290A6BD70 /* Pods-nimbus-sdk_Example-umbrella.h */,
+				1BD1440862948130970DA47DAB0322CA /* Pods-nimbus-sdk_Example.debug.xcconfig */,
+				EA6C8EA33F59521583F57BCE4FB49D40 /* Pods-nimbus-sdk_Example.release.xcconfig */,
+			);
+			name = "Pods-nimbus-sdk_Example";
+			path = "Target Support Files/Pods-nimbus-sdk_Example";
+			sourceTree = "<group>";
+		};
+		DDE2245FA868DF3E005F2B7644D632DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D68DACED6893F2D51E893B4B977D089 /* NimbusMonitor */,
+				2568E93298D9F6633261D98FAF55FF1A /* Pods-nimbus-sdk_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00002A4E6FC3CBCDB64E8C510A867CC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				723D1B0CC1E164D74FC51A532A493B49 /* DataModelType */,
+				12BA09CC2F08178BAEB86820E713D791 /* CoreDataManager.swift */,
+				B6312F3B50313A669DD4D58C10C88838 /* SDKConstant.swift */,
+				7378F7B713746C1C12C11D8F09D24E63 /* SDKError.swift */,
+			);
+			name = Data;
+			path = "nimbus-sdk/Classes/Data";
+			sourceTree = "<group>";
+		};
+		F9B229971CFEEBB3DC00BC953E78A5C4 /* NimbusMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				2063779E0C023E5DFE63E6D525FBF68D /* nimbus_database.xcdatamodeld */,
+				CE4B3A3F5D516F3CF57054B0DF390584 /* NBAssets.xcassets */,
+				859FB3456D2C4DC60F0663BAEAE6BC28 /* NimbusService.swift */,
+				6D3E349C2AA9DBF900B31468 /* ContractType */,
+				F00002A4E6FC3CBCDB64E8C510A867CC /* Data */,
+				D82DEF331C294A19C35B5727BF7FAB97 /* Pod */,
+				77AFEFFB6DDECAFF872EE8C129092CBA /* Support Files */,
+				4FDD5B4CCD06AA30F2BABD5B3C9C7BA8 /* UI */,
+				A9AF187208DFB04892F730841C7DBA0F /* Utils */,
+			);
+			name = NimbusMonitor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27488D3F112AE80F330B2DC95FE8DC9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACA52DE6B824F063B058ECAD3C3AEAA /* NimbusMonitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1350968008775FC91E8C18B6948E8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACE3D1272A46FBB6A6CF20779097399 /* Pods-nimbus-sdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EDF28670460179B57B228015A56E2AA /* NimbusMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563E2907555B21D0D519A0DFDF63525B /* Build configuration list for PBXNativeTarget "NimbusMonitor" */;
+			buildPhases = (
+				27488D3F112AE80F330B2DC95FE8DC9D /* Headers */,
+				9D85B58BDBB0FAAC84E6DFD28A3DD937 /* Sources */,
+				C74FA3680137325FD7425970AAC8D889 /* Frameworks */,
+				BB39DA62C882129C34B918477A338DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbusMonitor;
+			productName = NimbusMonitor;
+			productReference = 2D68DACED6893F2D51E893B4B977D089 /* NimbusMonitor */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E9AEA1B9C05C11F0A19108CB88086E3 /* Pods-nimbus-sdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB8E38B8DF3C7CD9CE7B1205C72BFA4 /* Build configuration list for PBXNativeTarget "Pods-nimbus-sdk_Example" */;
+			buildPhases = (
+				AE1350968008775FC91E8C18B6948E8E /* Headers */,
+				48D09DD36052ED714FA8A84A1051F74E /* Sources */,
+				F7D4AF10FBC453B62BD36DA86EEF85FE /* Frameworks */,
+				AE72C32BF063475BEBC080178CE89E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E457240E13DD7D14DA017C57C58F1F29 /* PBXTargetDependency */,
+			);
+			name = "Pods-nimbus-sdk_Example";
+			productName = Pods_nimbus_sdk_Example;
+			productReference = 2568E93298D9F6633261D98FAF55FF1A /* Pods-nimbus-sdk_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DDE2245FA868DF3E005F2B7644D632DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDF28670460179B57B228015A56E2AA /* NimbusMonitor */,
+				6E9AEA1B9C05C11F0A19108CB88086E3 /* Pods-nimbus-sdk_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE72C32BF063475BEBC080178CE89E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB39DA62C882129C34B918477A338DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1457951530C63ADA3F54E0688C7690A0 /* NBAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D09DD36052ED714FA8A84A1051F74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A70BF26150D8CCE95E85D81114A6C /* Pods-nimbus-sdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D85B58BDBB0FAAC84E6DFD28A3DD937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3E34B62AAA1ACF00B31468 /* InstrumentationCellData.swift in Sources */,
+				6D3E34962AA9D23700B31468 /* ManagedObjectable.swift in Sources */,
+				6D3E34A02AA9DC1100B31468 /* DebugLog.swift in Sources */,
+				6D3E34982AA9D6AA00B31468 /* NetworkCellData.swift in Sources */,
+				0E975947296EDA784E3D6762A08443BE /* CategoryView.swift in Sources */,
+				7B985CA9307A241884BD8F9CF73DA57A /* CoreDataManager.swift in Sources */,
+				E8430008D39F3945937EBCAD052F5042 /* nimbus_database.xcdatamodeld in Sources */,
+				6D3E34A82AA9ECAC00B31468 /* NetworkViewModel.swift in Sources */,
+				37F2A781C6A1A7F387BF07E3D27A140D /* DebugLogBuilder.swift in Sources */,
+				8CFB6002B75E8173B7A6D1E3CE658D65 /* DebugLogsViewController.swift in Sources */,
+				C69A6B5B6B02DA5EC857BE68F564B546 /* DebugLogViewModel.swift in Sources */,
+				A1879A29C827752A90E4AAC4739615ED /* DetailTextCell.swift in Sources */,
+				C028B51D5843B4A1F3A24629CD2C33BB /* DetailViewController.swift in Sources */,
+				B8E469F1400F9FCFEFCE44297A6F8E28 /* InstrumntationViewController.swift in Sources */,
+				EF04E5710D15B3CC781849D94F3C752E /* LogCell.swift in Sources */,
+				D65A5F698BF81CD14C2ECB25E4971409 /* LogDataModel.swift in Sources */,
+				F73CE0756CF0D6131AC4FCD59EB5B817 /* NBApplication.swift in Sources */,
+				6D3E34AC2AAA0FAE00B31468 /* NetworkLogBuilder.swift in Sources */,
+				6D3E34AA2AA9ED1000B31468 /* NetworkCellView.swift in Sources */,
+				A15CA36745F26E40022C44B3D955FD2D /* NBColor.swift in Sources */,
+				5E253AC22131051E0D52DCD2DCAF98FC /* NBDate.swift in Sources */,
+				384C38C7301DA95D7DF144D141BC280A /* NBView.swift in Sources */,
+				6D3E349E2AA9DBF900B31468 /* NetworkLog.swift in Sources */,
+				832A9069E982B2BC65102D8173F70066 /* NBViewController.swift in Sources */,
+				9F2753C028E16DB0FF637CFD0AECF852 /* NetworkLogViewController.swift in Sources */,
+				6D3E34B02AAA14FE00B31468 /* InstrumentationViewModel.swift in Sources */,
+				6D3E34942AA9D21000B31468 /* NetworkDataModel.swift in Sources */,
+				6D3E34AE2AAA14D800B31468 /* InstrumentationLogBuilder.swift in Sources */,
+				6D3E34B22AAA169100B31468 /* InstrumentationViewCell.swift in Sources */,
+				6D3E34A62AA9E14500B31468 /* NBData.swift in Sources */,
+				5C60664BED7BA374F7D31BD29E28D6CF /* NimbusMonitor-dummy.m in Sources */,
+				063C764B5EF2E7532D4ECBEF3AD7E5EE /* NimbusService.swift in Sources */,
+				446D245F0C369CE0202A99C79B58F30D /* NimbusViewController.swift in Sources */,
+				6D3E34B42AAA16C000B31468 /* DebugCellData.swift in Sources */,
+				6D517001FC61E1CC48F6D29D76725BA5 /* SDKConstant.swift in Sources */,
+				7CF87C3A8B2559F51EC18318885212C6 /* SDKError.swift in Sources */,
+				6D3E34A42AA9E01700B31468 /* InstrumentationDataModel.swift in Sources */,
+				6D3E34A22AA9DC1F00B31468 /* InstrumentationLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E457240E13DD7D14DA017C57C58F1F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NimbusMonitor;
+			target = 3EDF28670460179B57B228015A56E2AA /* NimbusMonitor */;
+			targetProxy = E6259D1BC34E8BDC411E24847E133BA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07BBBBE232E7E452196D2F00671CB16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B5A63F392C3BA62F6CEE6170D80323 /* NimbusMonitor.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NimbusMonitor/NimbusMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NimbusMonitor/NimbusMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NimbusMonitor/NimbusMonitor.modulemap";
+				PRODUCT_MODULE_NAME = NimbusMonitor;
+				PRODUCT_NAME = NimbusMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		386ABD59AECCD2D5974363C4E2D38C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD1440862948130970DA47DAB0322CA /* Pods-nimbus-sdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nimbus-sdk_Example/Pods-nimbus-sdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nimbus-sdk_Example/Pods-nimbus-sdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6BCEAAA449A6A1D69DCC56B083F42323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6C8EA33F59521583F57BCE4FB49D40 /* Pods-nimbus-sdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nimbus-sdk_Example/Pods-nimbus-sdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nimbus-sdk_Example/Pods-nimbus-sdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFE6B40EC9F1C7B0B2EF15E58A0C227C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64845E3D0FAABD677768944139FE319F /* NimbusMonitor.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NimbusMonitor/NimbusMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NimbusMonitor/NimbusMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NimbusMonitor/NimbusMonitor.modulemap";
+				PRODUCT_MODULE_NAME = NimbusMonitor;
+				PRODUCT_NAME = NimbusMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB8E38B8DF3C7CD9CE7B1205C72BFA4 /* Build configuration list for PBXNativeTarget "Pods-nimbus-sdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386ABD59AECCD2D5974363C4E2D38C10 /* Debug */,
+				6BCEAAA449A6A1D69DCC56B083F42323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563E2907555B21D0D519A0DFDF63525B /* Build configuration list for PBXNativeTarget "NimbusMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BBBBE232E7E452196D2F00671CB16F /* Debug */,
+				CFE6B40EC9F1C7B0B2EF15E58A0C227C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2063779E0C023E5DFE63E6D525FBF68D /* nimbus_database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A8A1E9E7AA250CF1FB40BBCBD5E31F9 /* database.xcdatamodel */,
+			);
+			currentVersion = 0A8A1E9E7AA250CF1FB40BBCBD5E31F9 /* database.xcdatamodel */;
+			name = nimbus_database.xcdatamodeld;
+			path = "nimbus-sdk/Classes/Utils/nimbus_database.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

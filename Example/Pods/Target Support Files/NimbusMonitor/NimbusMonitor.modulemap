@@ -1,0 +1,6 @@
+framework module NimbusMonitor {
+  umbrella header "NimbusMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

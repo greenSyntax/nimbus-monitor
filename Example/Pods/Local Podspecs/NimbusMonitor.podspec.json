@@ -1,0 +1,26 @@
+{
+  "name": "NimbusMonitor",
+  "version": "1.0.4",
+  "summary": "Demon Debugger View for iOS Ola Application",
+  "homepage": "https://github.com/abhishek-ravi_ola/nimbus-debug-monitor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "6260612": "ab.bhishek.ravi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/abhishek-ravi_ola/nimbus-debug-monitor.git",
+    "tag": "1.0.4"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resources": [
+    "nimbus-sdk/Classes/Utils/*.{storyboard,xib,xcassets,json, png, pdf,xcdatamodeld}"
+  ],
+  "source_files": "nimbus-sdk/Classes/**/*.{swift, plist, storyboard, xib, xcassets, json, png, pdf, xcdatamodeld }",
+  "swift_version": "5.0"
+}
