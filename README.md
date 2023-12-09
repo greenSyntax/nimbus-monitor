@@ -7,7 +7,26 @@ Pluggable iOS SDK made to build to track and monitor *API Traffic* and *Debug Lo
 - [x] Analytics Instrumententation Tracking
 - [x] Debug Console Logs
 
+
+## Installation
+
+nimbus-sdk is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'NimbusMonitor', :git => 'git@github.com:greenSyntax/nimbus-monitor.git', :tag => '1.0.9'
+```
+
+
 ## Integration
+
+You just need to write a single line of code - 
+
+```
+    NimbussService().monitor()
+```
+
+## Customization
 
 You can write something similar,
 ```
@@ -81,19 +100,10 @@ extension DebugMonitor {
 
 ```
 
-## Installation
-
-nimbus-sdk is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'NimbusMonitor', :git => 'git@github.com:greenSyntax/nimbus-monitor.git', :tag => '1.0.9'
-```
-
 ## Author
 
 Abhishek Ravi - ab.bhishek.ravi@gmail.com
 
 ## License
 
-nimbus-sdk is available under the MIT license. See the LICENSE file for more info.
+NimbusMonitor is available under the MIT license. See the LICENSE file for more info.
