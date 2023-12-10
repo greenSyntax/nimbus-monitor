@@ -1,11 +1,14 @@
 # Nimbus 500 🐝
-Pluggable iOS SDK made to build to track and monitor *API Traffic* and *Debug Logs*. And, Yes, Nimbuss 500 a Harry Potter Reference. It will pop when you shake your iPhone.
+Pluggable iOS library made to track your *API Traffic* and *Debug Logs*.
+
+![nimbus_monitor]([http://url/to/img.png](https://res.cloudinary.com/greensyntax-co-in/image/upload/v1702235960/github/stb1d8esgowa2mycg03g.jpg))
 
 ## Features
 
 - [x] API Traffic Monitor
-- [x] Analytics Instrumententation Tracking
+- [x] Analytics Instrumentation Tracking
 - [x] Debug Console Logs
+
 
 
 ## Installation
