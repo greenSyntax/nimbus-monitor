@@ -113,7 +113,7 @@ extension DebugMonitor {
 
 ## Author
 
-Abhishek Ravi - ab.bhishek.ravi@gmail.com
+Abhishek Ravi 🌵
 
 ## License
 
