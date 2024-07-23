@@ -1,5 +1,5 @@
 # Nimbus Monitor 🐝
-Pluggable iOS library made to track your *API Traffic* and *Debug Logs*.
+Keeping an eye on network traffic is crucial for optimizing app performance and ensuring a seamless user experience. In this blog post, we introduce a powerful plug-and-play library for HTTP network traffic monitoring. Designed to be easy to integrate and use, this library not only helps you monitor network activity but also includes features for adding debug logs and tracking event analytics.
 
 ![nimbus_monitor](https://res.cloudinary.com/greensyntax-co-in/image/upload/v1702235960/github/stb1d8esgowa2mycg03g.jpg)
 
@@ -9,6 +9,14 @@ Pluggable iOS library made to track your *API Traffic* and *Debug Logs*.
 - [x] Analytics Instrumentation Tracking
 - [x] Debug Console Logs
 
+## Why Monitor HTTP Network Traffic?
+
+Understanding your app’s network behavior is essential for diagnosing issues, optimizing performance, and improving overall user experience. By monitoring HTTP traffic, you can:
+
+	•	Identify Bottlenecks: Spot slow or failing requests that could degrade app performance.
+	•	Debug Issues: Gain insights into network-related bugs and errors.
+	•	Optimize Usage: Analyze data usage patterns to optimize network efficiency.
+	•	Enhance Security: Detect and respond to suspicious network activity.
 
 
 ## Installation
