@@ -1,4 +1,4 @@
-# Nimbus 500 🐝
+# Nimbus Monitor 🐝
 Pluggable iOS library made to track your *API Traffic* and *Debug Logs*.
 
 ![nimbus_monitor](https://res.cloudinary.com/greensyntax-co-in/image/upload/v1702235960/github/stb1d8esgowa2mycg03g.jpg)
